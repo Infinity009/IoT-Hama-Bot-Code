@@ -24,7 +24,7 @@ WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
 
 // Blynk credentials
-char auth[] = BLYNK_AUTH_TOKEN;X
+char auth[] = BLYNK_AUTH_TOKEN;
 char ssid[] = "Wokwi-GUEST"; // Ganti dengan SSID WiFi Anda jika perlu
 char pass[] = ""; // Ganti dengan password WiFi Anda jika perlu
 
